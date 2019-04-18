@@ -1,0 +1,446 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 1600px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -50px;
+}
+.sizeHome{
+  height: 680px;
+}
+
+.welcome{
+  position: relative;
+  top: -50px;
+}
+
+.sizeSobre{
+  height: 485px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 725px;
+  position: relative;
+  top: 50px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+
+@media only screen and (max-width : 1680px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -55px;
+}
+.sizeHome{
+  height: 835px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 635px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 880px;
+  position: relative;
+  top: 80px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 1920px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -60px;
+}
+.sizeHome{
+  height: 860px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 665px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 905px;
+  position: relative;
+  top: 80px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 1440px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -40px;
+}
+.sizeHome{
+  height: 678px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 485px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 730px;
+  position: relative;
+  top: 80px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 1400px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -40px;
+}
+.sizeHome{
+  height: 830px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 637px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 875px;
+  position: relative;
+  top: 80px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+
+@media only screen and (max-width : 1366px) {
+ .LogoImg{
+  width: 18%;
+  position: relative;
+  top: -40px;
+}
+.sizeHome{
+  height: 550px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 300px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 600px;
+  position: relative;
+  top: 80px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 1280px) {
+ .LogoImg{
+  width: 20%;
+  position: relative;
+  top: -40px;
+}
+.sizeHome{
+  height: 805px;
+}
+
+.welcome{
+  position: relative;
+  top: -10px;
+}
+
+.sizeSobre{
+  height: 595px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 850px;
+  position: relative;
+  top: 100px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 1152px) {
+ .LogoImg{
+  width: 25%;
+  position: relative;
+  top: -50px;
+}
+.sizeHome{
+  height: 650px;
+}
+
+.welcome{
+  position: relative;
+  top: -30px;
+}
+
+.sizeSobre{
+  height: 440px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 690px;
+  position: relative;
+  top: 100px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+
+@media only screen and (max-width : 1024px) {
+ .LogoImg{
+  width: 30%;
+  position: relative;
+  top: -55px;
+}
+.sizeHome{
+  height: 550px;
+}
+
+.welcome{
+  position: relative;
+  top: -30px;
+}
+
+.sizeSobre{
+  height: 200px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 600px;
+  position: relative;
+  top: 100px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+@media only screen and (max-width : 800px) {
+ .posMenuMobile{
+  position: relative;
+  top: -65px;
+ }
+.sizeHome{
+  height: 550px;
+}
+
+.welcome{
+  position: relative;
+  top: -30px;
+}
+
+.sizeSobre{
+  height: 200px;
+}
+
+.posDeveloped{
+  position: relative;
+  left: 38%;
+}
+
+.slideProjetos{
+  height: 600px;
+  position: relative;
+  top: 100px;
+}
+
+.sizeSlide{
+  height: 470px;
+}
+
+}
+
+
+
+
+
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.positionForm{
+  position: relative;
+  left: 6.4%;
+}
+
+
+.posArrowTop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.posIconArrow{
+  position: relative;
+  top: 15%;
+}
+
+
+
