@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -16,7 +16,7 @@
 <body>
   <nav id="menuHome" class="white" role="navigation">
     <div class="nav-wrapper container ">
-      <a id="logo-container" href="#" class="brand-logo"><img src="imgs/ByteCodeLogo.png" class="LogoImg"></a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="imgs/ByteCodeLogo.png" class="LogoImg" style="width: 50px"></a>
       <div class="nav-wrapper">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#servicos" class="scroll">Serviços</a></li>
